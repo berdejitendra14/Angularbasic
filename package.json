@@ -1,0 +1,17 @@
+{
+  "name": "angularnode",
+  "version": "1.0.0",
+  "description": "Angular Bower Node Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jitendra Berde",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-minify": "0.0.14",
+    "requirejs": "^2.2.0"
+  }
+}

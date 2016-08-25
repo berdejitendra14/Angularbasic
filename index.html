@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+        [ng\:cloak],[ng-cloak],.ng-cloak{display:none !important}
+    </style>
+</head>
+<body class="main">
+<!--<h1 ng-cloak style="text-align: center;color: #fff;">{{vm.hone}}</h1>
+<input ng-model="vm.name" value=""><BR>
+Welcome Dear First name - {{vm.name}} <br><br>-->
+<div ng-view class="main"></div>
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="common/routing.js"></script>
+<script src="common/details.js"></script>
+<script src="common/app.js"></script>
+</body>
+</html>
